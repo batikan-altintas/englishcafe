@@ -1,0 +1,194 @@
+﻿.undo-margin{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.login-container{
+    background-color: #fff;
+    
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.registration-container{
+    background-color: #fff;
+    
+    width: 400px;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align:center;
+   
+}
+
+.home-container {
+    background-image: url(../images/EnglisCafe_2023-09-min.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 700px;
+}
+
+.button-container{
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.button{
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    background-color: #F2BD19;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #E0AA0F;
+}
+
+.button-panel {
+    display: inline-block;
+    width: 150px;
+    padding: 15px;
+    background-color: #F2BD19;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 7px;
+    border: none !important;
+}
+
+.button-panel:hover {
+    cursor: pointer;
+    background-color: #E0AA0F;
+}
+
+.header-image{
+    width: 50px;
+    height: 50px;
+}
+
+.login-image {
+    background-image: url(../images/EnglisCafe_2023-04-min.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 0;
+    
+}
+
+.register-image{
+    background-image: url(../images/EnglisCafe_2023-03-min.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.selectlist-width{
+    width: 100%;
+    height: 70px !important;
+}
+
+.selectlist-width select option{
+   padding-top: 15px !important;
+   padding-bottom: 15px !important ;
+}
+
+.my-footer {
+    background-color: #F2BD19;
+}
+
+.my-header {
+    background-color: #F2BD19 !important;
+}
+
+.index-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 85vh;
+    background-image: url(../images/EnglisCafe_2023-05-min.png);
+}
+
+.table-box {
+    
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.edit {
+    text-decoration: none;
+    color: #F2BD19;
+}
+
+.panel-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f8f9fa;
+}
+
+.panel-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.deneme-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group select, 
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.panel-form-image {
+    background-image: url(../images/EnglisCafe_2023-05-min.png);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+.details-width{
+    max-width: 400px;
+}
+
+.color-link {
+    color: #F2BD19;
+    text-decoration: none;
+}
