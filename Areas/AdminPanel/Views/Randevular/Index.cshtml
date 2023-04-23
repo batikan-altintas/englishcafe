@@ -1,0 +1,87 @@
+﻿@model IEnumerable<BatikanSon.Models.Randevu>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="index-container">
+    <div class="table-box">
+        <h1>Randevular</h1>
+        <table class="table">
+            <thead>
+                <tr>
+             
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ogretmen.Ad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ogretmen.Soyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ogrenci.Ad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ogrenci.Soyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RandevuTanimi.Dil.DilAdi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RandevuTanimi.Gun.GunAdi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RandevuTanimi.Saat.SaatAdi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RandevuTanimi.Mekan.MekanAdi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.GerceklestiMi)
+                    </th>
+   
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+          
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ogretmen.Ad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ogretmen.Soyad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ogrenci.Ad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ogrenci.Soyad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RandevuTanimi.Dil.DilAdi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RandevuTanimi.Gun.GunAdi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RandevuTanimi.Saat.SaatAdi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RandevuTanimi.Mekan.MekanAdi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GerceklestiMi)
+                    </td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.RandevuID" class="edit">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.RandevuID" class="edit">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.RandevuID" class="edit">Delete</a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+    </div>
+</div>

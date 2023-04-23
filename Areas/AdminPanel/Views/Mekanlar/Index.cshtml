@@ -1,0 +1,41 @@
+﻿@model IEnumerable<BatikanSon.Models.Mekan>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="index-container">
+    <div class="table-box">
+        <h1>Mekanlar</h1>
+        <table class="table">
+            <thead>
+                <tr>
+            <th>
+                        @Html.DisplayNameFor(model => model.MekanAdi)
+            </th>
+            <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MekanAdi)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MekanID" class="edit">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.MekanID" class="edit">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.MekanID" class="edit">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <p>
+            <a class="button-panel" asp-action="Create">Yeni Mekan Oluştur</a>
+        </p>
+    </div>
+</div>

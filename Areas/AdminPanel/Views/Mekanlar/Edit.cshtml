@@ -1,0 +1,36 @@
+﻿@model BatikanSon.Models.Mekan
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+
+<div class="panel-form-image">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-4 mt-5">
+            <div class="panel-form-container">
+                <div class="panel-form">
+                    <h2>Edit</h2>
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="MekanID" />
+                        <div class="form-group">
+                            <label asp-for="MekanAdi" class="control-label"></label>
+                            <input asp-for="MekanAdi" class="form-control" />
+                            <span asp-validation-for="MekanAdi" class="text-danger"></span>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <input type="submit" value="Save" class="button-panel" />
+                            <a asp-action="Index" class="button-panel">Panele geri dön</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

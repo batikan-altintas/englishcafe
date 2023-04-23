@@ -1,0 +1,41 @@
+﻿@model BatikanSon.Models.Dil
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+
+    <div class="panel-form-image">
+    
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-md-4 mt-5">
+                <div class="panel-form-container">
+
+                    <div class="panel-form">
+                <h2>Dil Tanımla</h2>
+                        <form asp-action="Create" class="border-0">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                          <div class="form-group">
+                            <label asp-for="DilAdi" class="control-label"></label>
+                            <input asp-for="DilAdi" class="form-control" />
+                            <span asp-validation-for="DilAdi" class="text-danger"></span>
+                          </div>
+                                <div class="d-flex justify-content-between mt-3">
+                            <input type="submit" value="Create" class="button-panel" />
+                            <a asp-action="Index" class="button-panel">Panele geri dön</a>
+                                </div>
+                        
+
+                        </form>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

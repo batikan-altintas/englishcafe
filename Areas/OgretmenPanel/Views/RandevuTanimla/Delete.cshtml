@@ -1,0 +1,52 @@
+﻿@model BatikanSon.Models.RandevuTanimi
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="panel-form-image d-flex justify-content-center align-items-center">
+    <div class="panel-form-container mx-auto">
+        <div class="panel-form text-center">
+            <h3>Silmek istediğinize emin misiniz?</h3>
+            <dl class="row">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Onay)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Onay)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Dil)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Dil.DilID)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Gun)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Gun.GunID)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Mekan)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Mekan.MekanID)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Saat)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Saat.SaatID)
+                </dd>
+
+            </dl>
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="ID" />
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                <a asp-action="Index" class="button-panel">Back to List</a>
+            </form>
+        </div>
+    </div>
+
+</div>

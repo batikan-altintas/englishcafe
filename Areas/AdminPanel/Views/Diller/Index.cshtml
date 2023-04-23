@@ -1,0 +1,42 @@
+﻿@model IEnumerable<BatikanSon.Models.Dil>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+<div class="index-container">
+    <div class="table-box">
+        <h1>Diller</h1>
+        <table class="table">
+           <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DilAdi)
+            </th>
+            <th></th>
+        </tr>
+           </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DilAdi)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.DilID" class="edit">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.DilID" class="edit">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.DilID" class="edit">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <p>
+            <a class="button-panel" asp-action="Create">Yeni Dil Oluştur</a>
+        </p>
+    </div>
+</div>

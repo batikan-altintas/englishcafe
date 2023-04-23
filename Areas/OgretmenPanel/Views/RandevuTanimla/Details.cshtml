@@ -1,0 +1,54 @@
+﻿@model BatikanSon.Models.RandevuTanimi
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="panel-form-image d-flex justify-content-center align-items-center">
+    
+    <div class="panel-form-container details-width mx-auto">
+        
+        <div class="panel-form text-center">
+            <h4>Randevu Detay</h4>
+            <dl class="row">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Onay)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Onay)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Dil)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Dil.DilAdi)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Gun)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Gun.GunAdi)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Mekan)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Mekan.MekanAdi)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Saat)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Saat.SaatAdi)
+                </dd>
+
+            </dl>
+            <div class="d-flex justify-content-between mt-3">
+                <a asp-action="Edit" asp-route-id="@Model?.ID" class="button-panel">Edit</a>
+                <a asp-action="Index" class="button-panel">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+

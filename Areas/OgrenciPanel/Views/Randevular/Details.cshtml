@@ -1,0 +1,42 @@
+﻿@model BatikanSon.Models.Randevu
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Randevu</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RTID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RTID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GerceklestiMi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GerceklestiMi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ogretmen)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ogretmen.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ogrenci)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ogrenci.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.RandevuID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

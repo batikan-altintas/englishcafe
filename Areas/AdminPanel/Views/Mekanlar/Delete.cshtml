@@ -1,0 +1,28 @@
+﻿@model BatikanSon.Models.Mekan
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<div class="panel-form-image d-flex justify-content-center align-items-center">
+    <div class="panel-form-container mx-auto">
+        <div class="panel-form text-center">
+            <h3>Silmek istediğinize emin misiniz?</h3>
+            <dl class="row">
+               <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.MekanAdi)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.MekanAdi)
+                </dd>
+            </dl>
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="MekanID" />
+                <input type="submit" value="Delete" class="btn btn-danger" /> 
+                <a asp-action="Index" class="button-panel">Panele geri dön</a>
+            </form>
+        </div>
+    </div>
+    
+</div>

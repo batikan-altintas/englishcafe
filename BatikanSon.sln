@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatikanSon", "BatikanSon\BatikanSon.csproj", "{EDD3D223-7180-467D-B080-A4410F53B159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD3D223-7180-467D-B080-A4410F53B159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD3D223-7180-467D-B080-A4410F53B159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD3D223-7180-467D-B080-A4410F53B159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD3D223-7180-467D-B080-A4410F53B159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03637E42-F6D5-4B50-B805-2E6B0F05498E}
+	EndGlobalSection
+EndGlobal

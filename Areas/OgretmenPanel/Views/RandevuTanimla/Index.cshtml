@@ -1,0 +1,66 @@
+﻿@model IEnumerable<BatikanSon.Models.RandevuTanimi>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="index-container">
+    <div class="table-box">
+        <h1>Tanımlanmış Randevular</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Onay)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Dil)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Gun)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Mekan)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Saat)
+                    </th>
+     
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Onay)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dil.DilAdi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gun.GunAdi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Mekan.MekanAdi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Saat.SaatAdi)
+                    </td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ID" class="edit">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ID" class="edit">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ID" class="edit">Delete</a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+        <a asp-action="AktifRandevular" class="button-panel">Aktif Randevular</a>
+        <a asp-action="Create" class="button-panel">Randevu Tanımla</a>
+        
+    </div>
+</div>

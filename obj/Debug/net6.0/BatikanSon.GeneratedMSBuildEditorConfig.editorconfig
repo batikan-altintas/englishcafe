@@ -1,0 +1,213 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BatikanSon
+build_property.RootNamespace = BatikanSon
+build_property.ProjectDir = C:\Users\ceyha\OneDrive\Desktop\Batıkan\3.Proje New Age\Front-End Part\22.04-Maalesef son işler\BatikanSon\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ceyha\OneDrive\Desktop\Batıkan\3.Proje New Age\Front-End Part\22.04-Maalesef son işler\BatikanSon
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xBZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Diller/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xEaWxsZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Diller/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xEaWxsZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Diller/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xEaWxsZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Diller/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xEaWxsZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Diller/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xEaWxsZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Mekanlar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNZWthbmxhclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Mekanlar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNZWthbmxhclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Mekanlar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNZWthbmxhclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Mekanlar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNZWthbmxhclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Mekanlar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNZWthbmxhclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Randevular/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xSYW5kZXZ1bGFyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Randevular/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xSYW5kZXZ1bGFyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Randevular/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xSYW5kZXZ1bGFyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Randevular/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xSYW5kZXZ1bGFyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/Views/Randevular/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xSYW5kZXZ1bGFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/AdminPanel/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgrenciPanel/Views/Randevular/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZW5jaVBhbmVsXFZpZXdzXFJhbmRldnVsYXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgrenciPanel/Views/Randevular/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZW5jaVBhbmVsXFZpZXdzXFJhbmRldnVsYXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgrenciPanel/Views/Randevular/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZW5jaVBhbmVsXFZpZXdzXFJhbmRldnVsYXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgrenciPanel/Views/Randevular/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZW5jaVBhbmVsXFZpZXdzXFJhbmRldnVsYXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgrenciPanel/Views/Randevular/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZW5jaVBhbmVsXFZpZXdzXFJhbmRldnVsYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgrenciPanel/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZW5jaVBhbmVsXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgrenciPanel/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZW5jaVBhbmVsXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/Views/RandevuTanimla/AktifRandevular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxWaWV3c1xSYW5kZXZ1VGFuaW1sYVxBa3RpZlJhbmRldnVsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/Views/RandevuTanimla/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxWaWV3c1xSYW5kZXZ1VGFuaW1sYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/Views/RandevuTanimla/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxWaWV3c1xSYW5kZXZ1VGFuaW1sYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/Views/RandevuTanimla/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxWaWV3c1xSYW5kZXZ1VGFuaW1sYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/Views/RandevuTanimla/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxWaWV3c1xSYW5kZXZ1VGFuaW1sYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/Views/RandevuTanimla/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxWaWV3c1xSYW5kZXZ1VGFuaW1sYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Areas/OgretmenPanel/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT2dyZXRtZW5QYW5lbFxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/Lang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ceyha/OneDrive/Desktop/Batıkan/3.Proje New Age/Front-End Part/22.04-Maalesef son işler/BatikanSon/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-txpp8ox3mu

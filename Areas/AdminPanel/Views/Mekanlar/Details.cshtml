@@ -1,0 +1,28 @@
+﻿@model BatikanSon.Models.Mekan
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="panel-form-image d-flex justify-content-center align-items-center">
+
+    <div class="panel-form-container details-width mx-auto">
+
+        <div class="panel-form text-center">
+            <h4>Mekan Detay</h4>
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.MekanAdi)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.MekanAdi)
+                </dd>
+            </dl>
+            <div class="d-flex justify-content-between mt-3">
+                <a asp-action="Edit" asp-route-id="@Model?.MekanID" class="button-panel">Edit</a>
+                <a asp-action="Index" class="button-panel">Panele geri dön</a>
+            </div>
+        </div>
+    </div>
+</div>

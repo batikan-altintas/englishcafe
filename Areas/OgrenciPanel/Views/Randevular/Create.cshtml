@@ -1,0 +1,54 @@
+﻿@model BatikanSon.Models.Randevu
+
+@*@{
+    ViewData["Title"] = "Create";
+}*@
+<script>
+    function changeFormState(_form)
+    {
+        
+        _form.form.method ="GET";
+        _form.form.submit();
+    }
+
+</script>
+
+
+
+<div class="panel-form-image">
+    
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 mt-5">
+                <div class="panel-form-container">
+                <div class="panel-form">
+                    <h2>Randevu Oluştur</h2>
+                        <form asp-action="Create" method="post" id ="frm">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+ 
+                            <div class="form-group">
+                                <label class="control-label">Diller</label>
+                                <select name="id" class="form-control" asp-items="ViewBag.Diller" onchange="changeFormState(this)"></select>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="RTID" class="control-label">Randevu Detay</label>
+                                <select asp-for="RTID" class="form-control" asp-items="ViewBag.RTID"></select>
+                            </div>
+
+                            
+                                <div class="d-flex justify-content-between mt-3">
+                                   <input type="submit" value="Create" class="button-panel" />
+                                   <a asp-action="Index" class="button-panel">Panele geri dön</a>
+                                </div>
+             
+                        </form>
+                </div>
+      
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,45 @@
+﻿@model BatikanSon.Models.Randevu
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Randevu</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RTID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RTID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GerceklestiMi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GerceklestiMi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ogretmen)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ogretmen.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ogrenci)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ogrenci.Id)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="RandevuID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
